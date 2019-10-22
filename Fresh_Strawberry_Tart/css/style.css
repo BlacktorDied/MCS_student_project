@@ -1,0 +1,149 @@
+@import url(reset.css);
+
+.headerContainer {
+	width: 1440px;
+	height: 60px;
+	background-color: #FE1A19;
+	position: relative;
+}
+
+.headerText {
+	position: absolute;
+	width: 820px;
+	height: 20px;
+	left: 20px;
+	top: 20px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+.column {
+	position: relative;
+	width: 400px;
+	height: 800px;
+	left: 70px;
+	top: 52px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.heading {
+	position: absolute;
+	width: 207px;
+	height: 23px;
+	left: 33px;
+	top: 27px;
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+/* identical to box height */
+	display: block;
+	align-items: center;
+	color: #000000;
+}
+
+
+
+.ingredients {
+	position: absolute;
+	width: 334px;
+	height: 670px;
+	left: 33px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	display: block;
+	align-items: center;
+	color: #000000;
+}
+
+.ingredientsHeading {
+	position: absolute;
+	width: 334px;
+	height: 670px;
+	left: 33px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	display: block;
+	align-items: center;
+	color: #000000;
+	font-weight: bold;
+}
+
+.ingredientsHeading.first {
+	top: 80px;
+}
+
+.ingredients.first {
+	top: 100px;
+}
+
+.ingredientsHeading.second {
+	top: 255px;
+}
+
+.ingredients.second {
+	top: 275px;
+}
+
+.ingredientsHeading.third{
+	top: 430px;
+}
+
+.ingredients.third {
+	top: 450px;
+}
+
+.ingredientsHeading.fourth {
+	top: 605px;
+}
+
+.ingredients.fourth {
+	top: 625px;
+}
+
+.footerContainer {
+	width: 1440px;
+	height: 60px;
+	top: 125px;
+	background-color: #FE1A19;
+	position: relative;
+}
+
+.copyright {
+	position: absolute;
+	width: 170px;
+	height: 20px;
+	left: 20px;
+	top: 20px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF
+}
+
+.back {
+	position: absolute;
+	width: 70px;
+	height: 20px;
+	left: 1350px;
+	top: 20px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	text-align: right;
+	color: #FFFFFF;
+}
