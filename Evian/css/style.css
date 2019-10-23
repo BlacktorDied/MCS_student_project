@@ -20,11 +20,11 @@
 }
 
 .logo {
-	padding-left: 40px;
+	padding-left: 50px;
 }
 
 .link li {
-  	padding-right: 40px;
+  	padding-right: 50px;
 }
 
 .image {
@@ -34,6 +34,7 @@
 }
 
 .mainText {
+	display: flex;
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
@@ -101,4 +102,12 @@
 	align-items: center;
   	color: #FFFFFF;
   	background-color: #F8BFC7;
+}
+
+.copyright {
+	padding-left: 50px;
+}
+
+.back {
+	padding-right: 50px;
 }
