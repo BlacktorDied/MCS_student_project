@@ -1,0 +1,82 @@
+@import url(reset.css);
+
+.titleContainer {
+	height: 160px;
+	width: 100%;
+	background-color: #FEB700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+}
+
+.titleContainer h1 {
+	font-family: Times New Roman;
+	font-size: 50px;
+	line-height: 57px;
+}
+
+.columns {
+	min-height: 400px;	
+	margin: auto;
+	min-width: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+
+}
+
+.column {
+	padding: 30px;
+	margin-bottom: 70px;
+	margin-top: 70px;
+	width: calc((100% - 100px)/3);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.heading {
+	font-weight: bold;
+}
+
+.column.one div {
+	background-image: url(../img/samosa.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.column.two div {
+	background-image: url(../img/Yogurt.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.column.three div {
+	background-image: url(../img/Granola.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+footer {
+	height: 160px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: Times New Roman;
+	font-size: 50px;
+	line-height: 57px;
+	color: #000000;
+	background: #FEB700;
+}
+
+.footerContainer p {
+	padding-left: 50px;
+}
+
+.footerContainer a {
+	padding-right: 50px;
+}
