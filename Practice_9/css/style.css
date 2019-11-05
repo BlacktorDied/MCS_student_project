@@ -72,6 +72,7 @@ footer {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		height: 71.5vh;
 	}
 
 	.columns {
@@ -105,11 +106,5 @@ footer {
 
 	.column.four {
 		margin: 10px 0 0 0;
-	}
-}
-
-@media screen and (min-width: 736px) {
-	main {
-		height: 71.5vh;
 	}
 }
