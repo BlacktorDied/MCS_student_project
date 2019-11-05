@@ -1,0 +1,108 @@
+@import url(reset.css);
+
+header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-height: 100px;
+	background-color: #0000FF;
+	font-family: Helvetica;
+	font-size: 25px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+.heading {
+	padding-left: 30px;
+}
+
+.column {
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 110px;
+	margin-right: 110px;
+	min-height: 165px;
+	border: 5px solid #000000;
+	box-sizing: border-box;
+}
+
+.column.one {
+	margin-top: 20px;
+}
+
+.column.two {
+	margin-top: 41px;
+}
+
+.column.three {
+	margin-top: 41px;
+}
+
+.column.four {
+	margin-top: 41px;
+	margin-bottom: 21px;	
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	min-height: 100px;
+	background-color: #0000FF;
+	font-family: Helvetica;
+	font-size: 25px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+.footer p {
+	padding-left: 30px;
+}
+
+.footer a {
+	padding-right: 30px;
+}
+
+@media screen and (min-width: 736px) {
+	main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.columns {
+		margin: 20px 10px 20px 10px;
+	}
+
+	.columns.one {
+		margin-left: 110px;
+	}
+
+	.columns.two {
+		margin-right: 110px
+	}
+
+	.column {
+		min-width: 300px;
+		margin: 0 0 0 0;
+	}
+
+	.column.one {
+		margin: 0;
+	}
+
+	.column.two {
+		margin: 10px 0 0 0;
+	}
+
+	.column.three {
+		margin: 0;
+	}
+
+	.column.four {
+		margin: 10px 0 0 0;
+	}
+}
