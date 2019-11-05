@@ -1,83 +1,66 @@
 @import url(reset.css);
 
 header {
-	position: relative;
-	width: 1440px;
+	width: 100%;
 	height: 200px;
-	background: #E5E000;
-}
-
-.authorName {
-	position: absolute;
-	width: 470px;
-	height: 40px;
-	left: 80px;
-	top: 80px;
+	display: flex;
+	align-items: center;
+	background-color: #E5E000;
 	font-family: Helvetica;
 	font-size: 50px;
 	line-height: 57px;
-	display: flex;
-	align-items: center;
-	color: #FFFFFF
+	color: #FFFFFF;
 }
 
-.image {
-	width: 1440px;	
-	height: 1080px;
-	top: 200px;
-	background-image: url(../img/img.jpg);
+.authorName {
+	padding-left: 80px;
 }
 
-.secondlyTextContainer {
-	position: relative;
-	width: 1440px;
-	height: 150px;
-	background: #E5E000;
+img {
+	width: 100%;
+	height: 100%;
 }
 
-.secondlyText {
-	/*position: absolute;
-	width: 984px;
-	height: 22px;
-	left: 80px;
-	top: 39px;
+.links {
+	width: 100%
+	height: 100%;
+	margin-top: -10px;
+	background-color: #E5E000;
 	font-family: Helvetica;
 	font-size: 25px;
-	line-height: 29px;
-	display: flex;
-	align-items: center;
+	line-height: 29px;	
+	color: #FFFFFF;
+}
+
+h1.heading {
 	text-transform: uppercase;
-	color: #FFFFFF;*/
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
 }
 
-.mainSection {
-	position: relative;
-	width: 1280px;
-	height: 900px;
+.links li {
+	text-transform: lowercase;
+	padding-left: 40px;
+	padding-bottom: 10px;
 }
 
-.sectionDiv {
-	position: absolute;
-	top: 110px;
-	left: 80px;
-}	
-
-.mainText {
+section {
+	width: 80%;
+	min-height: 100px;
+	margin: auto;
+	margin-top: 110px;
+	margin-bottom: 110px;
 	font-family: Helvetica;
 	font-size: 50px;
 	line-height: 57px;
 	color: #000000;
 }
 
-.footer {
-	position: relative;
-	width: 1440px;
+footer {
+	display: flex;
+	align-items: center;
+	padding-left: 80px;
 	height: 200px;
 	background-color: #E5E000;
-}
-
-.footerContainer {
-	position: absolute;
-	top: 77px;
-	left: 80px;
 }
