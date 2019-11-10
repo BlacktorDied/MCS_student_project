@@ -80,6 +80,7 @@ input[type="text"] {
 	border: none;
 	border-bottom: 1px solid #FFFFFF;
 	background: none;
+	outline: none;
 }
 
 input[type="text"]::placeholder {
@@ -94,7 +95,7 @@ input[type="submit"] {
 	min-width: 175px;
 	min-height: 60px;
 	margin-top: 5px;
-	background: #FEB700;
+	background-color: #FEB700;
 	border: 3px solid #FFFFFF;
 	box-sizing: border-box;
 	border-radius: 30px;
