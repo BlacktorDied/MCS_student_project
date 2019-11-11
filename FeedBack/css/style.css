@@ -31,7 +31,6 @@ header {
 
 .menu {
 	margin-right: 50px;
-	text-decoration: underline;
 }
 
 .page {
@@ -52,7 +51,7 @@ form {
 
 fieldset {
 	display: flex;
-	min-width: 225px;
+	min-width: 265px;
 	min-height: 225px;
 	background-color: #F8BFC7;
 	border: 3px solid #FFFFFF;
@@ -66,8 +65,8 @@ fieldset {
 
 label {
 	margin-left: 23px;
-	margin-bottom: 5px;
-	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-top: 15px;
 }
 
 label[for="name"] {
@@ -81,9 +80,13 @@ input[type="text"] {
 	border-bottom: 1px solid #FFFFFF;
 	background: none;
 	outline: none;
-}
+} 
 
 input[type="text"]::placeholder {
+	font-weight: lighter;
+	font-family: Helvetica;
+	font-size: 17px;
+	line-height: 23px;
 	color: #FFFFFF;
 }
 
@@ -93,12 +96,16 @@ input[name="email"] {
 
 input[type="submit"] {
 	min-width: 175px;
-	min-height: 60px;
+	min-height: 50px;
 	margin-top: 5px;
 	background-color: #FEB700;
 	border: 3px solid #FFFFFF;
 	box-sizing: border-box;
 	border-radius: 30px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
 }
 
 .weAreComing {
