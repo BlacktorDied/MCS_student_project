@@ -64,7 +64,8 @@ fieldset {
 }
 
 label {
-	margin-left: 23px;
+	font-weight: bold;
+	margin-left: 28px;
 	margin-bottom: 10px;
 	margin-top: 15px;
 }
@@ -83,7 +84,7 @@ input[type="text"] {
 } 
 
 input[type="text"]::placeholder {
-	font-weight: lighter;
+	font-weight: normal;
 	font-family: Helvetica;
 	font-size: 17px;
 	line-height: 23px;
